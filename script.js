@@ -1,15 +1,15 @@
 script.js
 const cardArray = [
-    { name: 'dog', img: 'img/dog.jpeg' },
-    { name: 'dog', img: 'img/dog.jpeg' },
-    { name: 'horse', img: 'img/horse.png' },
-    { name: 'horse', img: 'img/horse.png' },
+    { name: 'dog', img: 'dog.jpeg' },
+    { name: 'dog', img: 'dog.jpeg' },
+    { name: 'horse', img: 'horse.png' },
+    { name: 'horse', img: 'horse.png' },
     { name: 'cat', img: 'cat.png' },
     { name: 'cat', img: 'cat.png' },
-    { name: 'fish', img: 'img/fish.jpeg' },
-    { name: 'fish', img: 'img/fish.jpeg' },
-    { name: 'bird', img:'img/images.jpeg'},
-    { name: 'bird', img: 'img/images.jpeg'}
+    { name: 'fish', img: 'fish.jpeg' },
+    { name: 'fish', img: 'fish.jpeg' },
+    { name: 'bird', img:'images.jpeg'},
+    { name: 'bird', img: 'images.jpeg'}
     ];
     const grid = document.getElementById('grid');
     let cardsChosen = [], cardsChosenId = [], cardsWon = [];
